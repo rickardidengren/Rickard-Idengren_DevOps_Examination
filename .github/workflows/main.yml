@@ -2,9 +2,9 @@ name: CICD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "Feature/tests-G-level" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "Feature/tests-G-level" ]
 permissions:
   id-token: write
   pages: write
