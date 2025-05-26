@@ -14,7 +14,7 @@ class TestCSV(unittest.TestCase):
        with open('profiles1.csv', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row['Givenname'] == 'annika':
+                if row['Givenname'] == 'felnamn':
                     self.assertTrue(True)
                     return
                 
